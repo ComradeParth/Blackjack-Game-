@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+		sans-serif;
+	/* color: #35b5ac;
+	color: #8d8f8a;
+	color: #85a7a0; */
+
+	background-image: url(../images/bg-black.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	min-height: 100vh;
+	margin: 0;
+
+	display: flex;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	width: 480px;
+	max-width: 80%;
+
+	margin: auto;
+	padding: 3em;
+
+	color: #fff;
+	background-color: rgba(27, 34, 26, 0.911);
+
+	background-blend-mode: luminosity;
+
+	border-radius: 2em;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+
+	margin-block: 1em;
+	padding: 0.7em 1.7em;
+	width: 80%;
+
+	color: rgb(36, 43, 102);
+	background: none;
+	background-color: rgb(107, 182, 146);
+
+	border-radius: 0.3em;
+
+	transform: scale(1);
+	transition: transform 250ms;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+.darker-green {
+	background-color: hsl(151, 34%, 37%);
+}
